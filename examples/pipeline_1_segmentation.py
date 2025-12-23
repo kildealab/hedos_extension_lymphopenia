@@ -3,6 +3,8 @@ from DICOM_file_handling.Functions.total_segmentator import run_totalseg
 from organs import ORG_SYSTEMS
 
 # Pipeline Step 1: CT segmentation and merging of RTSTRUCT files
+#This step is only required for initial segmentation. Once this step completed,
+#replanning can begin from step 2
 
 if __name__ == "__main__":
 
