@@ -1,39 +1,43 @@
-# Byte-compiled / optimized / DLL files
+
+# Python / bytecode
 __pycache__/
 *.py[cod]
+*.pyc
 *$py.class
 
-# Jupyter Notebook
-.ipynb_checkpoints
 
-# Environments
+# Virtual environments
 env/
 venv/
+.venv/
 
-# Temp files
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# OS / editor junk
 *.DS_Store
 *~$*
-
-# Skip blood_path and dose field (too large)
-input/blood_path.npy
-input/patient/dose.npy
-
-# Ignore idea stuff
 .idea/
 
 
-.venv/
-__pycache__/
-*.pyc
-examples/*.npy
-input/patient/
+# Build / packaging
 *.egg-info/
-# Patient data (keep dirs, ignore contents)
+
+# Large generated outputs
+examples/*.npy
+
+# Input data
+
+# Ignore large single files
+input/blood_path.npy
+input/patient/dose.npy
+
+# ---- Patient data ----
+# Keep directory structure, ignore contents
 input/patient/*
 !input/patient/.gitkeep
+
 input/patient/DVHs/*
 !input/patient/DVHs/.gitkeep
-
-
-
-
