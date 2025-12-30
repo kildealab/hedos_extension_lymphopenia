@@ -28,4 +28,9 @@ __pycache__/
 examples/*.npy
 input/patient/
 *.egg-info/
+# Patient data (keep dirs, ignore contents)
+input/patient/*
+!input/patient/.gitkeep
+input/patient/DVHs/*
+!input/patient/DVHs/.gitkeep
 
