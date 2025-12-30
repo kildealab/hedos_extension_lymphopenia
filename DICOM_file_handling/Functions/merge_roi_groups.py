@@ -1,4 +1,4 @@
-from DICOM_file_handling.rt_utils_mod.rt_utils_mod import RTStructMerger, RTStructBuilder
+from rt_utils import RTStructBuilder
 import numpy as np
 import os
 

@@ -19,7 +19,6 @@ zipp==3.15.0
 numpy==1.26.4
 pandas==1.5.3
 pydicom==2.4.3
-Pillow==9.5.0
 dicom2nifti==2.4.8
 scikit-image==0.21.0
 SimpleITK==2.3.1
@@ -28,3 +27,5 @@ torch
 TotalSegmentator
 PyQt5
 dicompyler-core==0.5.6
+opencv-python>=4.0.0
+

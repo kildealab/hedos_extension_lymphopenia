@@ -1,6 +1,6 @@
 def merge_rtstruct_files(CT, RTSTRUCT_LOCATION, RTSTRUCTS):
     import os
-    from DICOM_file_handling.rt_utils_mod.rt_utils_mod import RTStructMerger
+    from rt_utils import RTStructMerger
 
     # Merge the first two RTSTRUCTs
     merged_rt_struct = RTStructMerger.merge_rtstructs(

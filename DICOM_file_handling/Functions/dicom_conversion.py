@@ -11,7 +11,7 @@ import os
 import numpy as np
 import pydicom
 import SimpleITK as sitk
-from DICOM_file_handling.rt_utils_mod.rt_utils_mod import RTStructBuilder
+from rt_utils import RTStructBuilder
 
 # NOTE:
 # RTSTRUCT handling in this pipeline relies on a locally modified rt-utils

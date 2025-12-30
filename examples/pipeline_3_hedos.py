@@ -18,15 +18,15 @@ from DICOM_file_handling.Functions.simulation_classes import (
 # 2) a stacked array containing all runs with shape (n_runs, Nparticles)
 
 #Activate for repeated simulation: blocks the interactive window that blocks code when doing repeated measurements
-#plt.show = lambda *a, **k: None  # avoid blocking plots during batch runs
+#plt.show = lambda *a, **k: None  # avoid "blocking" plots during batch runs
 
 if __name__ == "__main__":
 
     # Step 3.1: choose plan version and number of runs
-    n_runs = 12  # number of HEDOS runs (Monte Carlo repetitions)
+    n_runs = 2  # number of HEDOS runs (Monte Carlo repetitions)
 
     # Choose one depending on the plan used in pipeline_2_choosing_plan:
-    # Version = "INITIAL"
+    #Version = "INITIAL"
     Version = "OPTIMIZED"
 
     nr_fractions = 30
