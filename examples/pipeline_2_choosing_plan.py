@@ -22,14 +22,14 @@ if __name__ == "__main__":
     # Step 2.1: specify the plan DICOM paths (CT, RTSTRUCT, RTDOSE)
 
     ####### MUHC #########
-    # RTDOSE = "/Users/charles-etiennegaudet/Downloads/Phantom_Charles/half_arc_2/RD.1.2.246.352.71.7.991924009032.4305404.20251127193956.dcm"
-    # CT = "/Users/charles-etiennegaudet/Downloads/Phantom_Charles/half_arc_2/MUHC_CT"
-    # RTSTRUCT = "/Users/charles-etiennegaudet/Downloads/Phantom_Charles/half_arc_2/RS.1.2.246.352.71.4.991924009032.744827.20251127193149.dcm"
+    # RTDOSE = "..."
+    # CT = "..."
+    # RTSTRUCT = "..."
 
     ####### LymphoTEC #########
-    RTDOSE = "/Users/charles-etiennegaudet/Downloads/Lymphopenia_LymphotecConst2/RD.1.2.246.352.221.5103741333306566415.4719648016124851644.dcm"
-    CT = "/Users/charles-etiennegaudet/Downloads/Lymphopenia_LymphotecConst2/Lymph_ct"
-    RTSTRUCT = "/Users/charles-etiennegaudet/Downloads/Lymphopenia_LymphotecConst2/RS.1.2.246.352.221.5689110468242748410.18302259186374122660.dcm"
+    RTDOSE = "..."
+    CT = "..."
+    RTSTRUCT = "..."
 
     # Step 2.2: group structures by merging ROIs (masks) inside the RTSTRUCT (GROUPS in organs.py)
     groups = GROUPS
